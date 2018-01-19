@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC27A5C4200DB4F600A31796 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC27A5C3200DB4F600A31796 /* AppDelegate.swift */; };
+		BC27A5C6200DB4F600A31796 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC27A5C5200DB4F600A31796 /* ViewController.swift */; };
+		BC27A5C9200DB4F600A31796 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC27A5C7200DB4F600A31796 /* Main.storyboard */; };
+		BC27A5CB200DB4F600A31796 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC27A5CA200DB4F600A31796 /* Assets.xcassets */; };
+		BC27A5CE200DB4F600A31796 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC27A5CC200DB4F600A31796 /* LaunchScreen.storyboard */; };
+		BC27A5D9200DB4F600A31796 /* beastListAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC27A5D8200DB4F600A31796 /* beastListAppTests.swift */; };
+		BC27A5E4200DB4F600A31796 /* beastListAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC27A5E3200DB4F600A31796 /* beastListAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC27A5D5200DB4F600A31796 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC27A5B8200DB4F600A31796 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC27A5BF200DB4F600A31796;
+			remoteInfo = beastListApp;
+		};
+		BC27A5E0200DB4F600A31796 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC27A5B8200DB4F600A31796 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC27A5BF200DB4F600A31796;
+			remoteInfo = beastListApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC27A5C0200DB4F600A31796 /* beastListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = beastListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC27A5C3200DB4F600A31796 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BC27A5C5200DB4F600A31796 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BC27A5C8200DB4F600A31796 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC27A5CA200DB4F600A31796 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC27A5CD200DB4F600A31796 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC27A5CF200DB4F600A31796 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC27A5D4200DB4F600A31796 /* beastListAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = beastListAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC27A5D8200DB4F600A31796 /* beastListAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = beastListAppTests.swift; sourceTree = "<group>"; };
+		BC27A5DA200DB4F600A31796 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC27A5DF200DB4F600A31796 /* beastListAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = beastListAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC27A5E3200DB4F600A31796 /* beastListAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = beastListAppUITests.swift; sourceTree = "<group>"; };
+		BC27A5E5200DB4F600A31796 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC27A5BD200DB4F600A31796 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC27A5D1200DB4F600A31796 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC27A5DC200DB4F600A31796 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC27A5B7200DB4F600A31796 = {
+			isa = PBXGroup;
+			children = (
+				BC27A5C2200DB4F600A31796 /* beastListApp */,
+				BC27A5D7200DB4F600A31796 /* beastListAppTests */,
+				BC27A5E2200DB4F600A31796 /* beastListAppUITests */,
+				BC27A5C1200DB4F600A31796 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC27A5C1200DB4F600A31796 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC27A5C0200DB4F600A31796 /* beastListApp.app */,
+				BC27A5D4200DB4F600A31796 /* beastListAppTests.xctest */,
+				BC27A5DF200DB4F600A31796 /* beastListAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC27A5C2200DB4F600A31796 /* beastListApp */ = {
+			isa = PBXGroup;
+			children = (
+				BC27A5C3200DB4F600A31796 /* AppDelegate.swift */,
+				BC27A5C5200DB4F600A31796 /* ViewController.swift */,
+				BC27A5C7200DB4F600A31796 /* Main.storyboard */,
+				BC27A5CA200DB4F600A31796 /* Assets.xcassets */,
+				BC27A5CC200DB4F600A31796 /* LaunchScreen.storyboard */,
+				BC27A5CF200DB4F600A31796 /* Info.plist */,
+			);
+			path = beastListApp;
+			sourceTree = "<group>";
+		};
+		BC27A5D7200DB4F600A31796 /* beastListAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC27A5D8200DB4F600A31796 /* beastListAppTests.swift */,
+				BC27A5DA200DB4F600A31796 /* Info.plist */,
+			);
+			path = beastListAppTests;
+			sourceTree = "<group>";
+		};
+		BC27A5E2200DB4F600A31796 /* beastListAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC27A5E3200DB4F600A31796 /* beastListAppUITests.swift */,
+				BC27A5E5200DB4F600A31796 /* Info.plist */,
+			);
+			path = beastListAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC27A5BF200DB4F600A31796 /* beastListApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC27A5E8200DB4F600A31796 /* Build configuration list for PBXNativeTarget "beastListApp" */;
+			buildPhases = (
+				BC27A5BC200DB4F600A31796 /* Sources */,
+				BC27A5BD200DB4F600A31796 /* Frameworks */,
+				BC27A5BE200DB4F600A31796 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = beastListApp;
+			productName = beastListApp;
+			productReference = BC27A5C0200DB4F600A31796 /* beastListApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC27A5D3200DB4F600A31796 /* beastListAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC27A5EB200DB4F600A31796 /* Build configuration list for PBXNativeTarget "beastListAppTests" */;
+			buildPhases = (
+				BC27A5D0200DB4F600A31796 /* Sources */,
+				BC27A5D1200DB4F600A31796 /* Frameworks */,
+				BC27A5D2200DB4F600A31796 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC27A5D6200DB4F600A31796 /* PBXTargetDependency */,
+			);
+			name = beastListAppTests;
+			productName = beastListAppTests;
+			productReference = BC27A5D4200DB4F600A31796 /* beastListAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC27A5DE200DB4F600A31796 /* beastListAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC27A5EE200DB4F600A31796 /* Build configuration list for PBXNativeTarget "beastListAppUITests" */;
+			buildPhases = (
+				BC27A5DB200DB4F600A31796 /* Sources */,
+				BC27A5DC200DB4F600A31796 /* Frameworks */,
+				BC27A5DD200DB4F600A31796 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC27A5E1200DB4F600A31796 /* PBXTargetDependency */,
+			);
+			name = beastListAppUITests;
+			productName = beastListAppUITests;
+			productReference = BC27A5DF200DB4F600A31796 /* beastListAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC27A5B8200DB4F600A31796 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "William Tsai";
+				TargetAttributes = {
+					BC27A5BF200DB4F600A31796 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					BC27A5D3200DB4F600A31796 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BC27A5BF200DB4F600A31796;
+					};
+					BC27A5DE200DB4F600A31796 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BC27A5BF200DB4F600A31796;
+					};
+				};
+			};
+			buildConfigurationList = BC27A5BB200DB4F600A31796 /* Build configuration list for PBXProject "beastListApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC27A5B7200DB4F600A31796;
+			productRefGroup = BC27A5C1200DB4F600A31796 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC27A5BF200DB4F600A31796 /* beastListApp */,
+				BC27A5D3200DB4F600A31796 /* beastListAppTests */,
+				BC27A5DE200DB4F600A31796 /* beastListAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC27A5BE200DB4F600A31796 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC27A5CE200DB4F600A31796 /* LaunchScreen.storyboard in Resources */,
+				BC27A5CB200DB4F600A31796 /* Assets.xcassets in Resources */,
+				BC27A5C9200DB4F600A31796 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC27A5D2200DB4F600A31796 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC27A5DD200DB4F600A31796 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC27A5BC200DB4F600A31796 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC27A5C6200DB4F600A31796 /* ViewController.swift in Sources */,
+				BC27A5C4200DB4F600A31796 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC27A5D0200DB4F600A31796 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC27A5D9200DB4F600A31796 /* beastListAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC27A5DB200DB4F600A31796 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC27A5E4200DB4F600A31796 /* beastListAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC27A5D6200DB4F600A31796 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC27A5BF200DB4F600A31796 /* beastListApp */;
+			targetProxy = BC27A5D5200DB4F600A31796 /* PBXContainerItemProxy */;
+		};
+		BC27A5E1200DB4F600A31796 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC27A5BF200DB4F600A31796 /* beastListApp */;
+			targetProxy = BC27A5E0200DB4F600A31796 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC27A5C7200DB4F600A31796 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC27A5C8200DB4F600A31796 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC27A5CC200DB4F600A31796 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC27A5CD200DB4F600A31796 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC27A5E6200DB4F600A31796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC27A5E7200DB4F600A31796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC27A5E9200DB4F600A31796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5QBBBZ483H;
+				INFOPLIST_FILE = beastListApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.william-tsai.beastListApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC27A5EA200DB4F600A31796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5QBBBZ483H;
+				INFOPLIST_FILE = beastListApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.william-tsai.beastListApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BC27A5EC200DB4F600A31796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = beastListAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.william-tsai.beastListAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/beastListApp.app/beastListApp";
+			};
+			name = Debug;
+		};
+		BC27A5ED200DB4F600A31796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = beastListAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.william-tsai.beastListAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/beastListApp.app/beastListApp";
+			};
+			name = Release;
+		};
+		BC27A5EF200DB4F600A31796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = beastListAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.william-tsai.beastListAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = beastListApp;
+			};
+			name = Debug;
+		};
+		BC27A5F0200DB4F600A31796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = beastListAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.william-tsai.beastListAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = beastListApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC27A5BB200DB4F600A31796 /* Build configuration list for PBXProject "beastListApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC27A5E6200DB4F600A31796 /* Debug */,
+				BC27A5E7200DB4F600A31796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC27A5E8200DB4F600A31796 /* Build configuration list for PBXNativeTarget "beastListApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC27A5E9200DB4F600A31796 /* Debug */,
+				BC27A5EA200DB4F600A31796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC27A5EB200DB4F600A31796 /* Build configuration list for PBXNativeTarget "beastListAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC27A5EC200DB4F600A31796 /* Debug */,
+				BC27A5ED200DB4F600A31796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC27A5EE200DB4F600A31796 /* Build configuration list for PBXNativeTarget "beastListAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC27A5EF200DB4F600A31796 /* Debug */,
+				BC27A5F0200DB4F600A31796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC27A5B8200DB4F600A31796 /* Project object */;
+}
